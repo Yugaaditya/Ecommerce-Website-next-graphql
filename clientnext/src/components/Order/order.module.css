@@ -1,0 +1,19 @@
+.order-page{
+    background-color: rgba(233, 229, 229, 0.619);
+    overflow: auto;
+}
+
+.order-items {
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: xx-large;
+    font-family: monospace;
+    width: 80%;
+    height: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.211);
+  }

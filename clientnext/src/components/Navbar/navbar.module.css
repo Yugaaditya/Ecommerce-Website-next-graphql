@@ -1,0 +1,26 @@
+.home-icon{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.home-icon:hover{
+    cursor: pointer;
+}
+
+.reset-filter {
+    margin-top: 5px;
+    margin-left: 20px;
+    background-color: rgba(131, 217, 134, 0.507);
+    border-color: rgba(244, 239, 238, 0.699);
+    ;
+}
+
+.logout {
+    margin-top: 5px;
+    margin-left: 20px;
+    background-color: rgba(131, 217, 134, 0.507);
+    border-color: rgba(244, 239, 238, 0.699);
+    ;
+}
