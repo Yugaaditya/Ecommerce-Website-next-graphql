@@ -65,10 +65,10 @@ type CartResponse{
 
 type OrderResponse{
   status:Int!
-  _id:ID!,
-  user:ID!,
+  _id:ID,
+  user:ID,
   products:[Product],
-  totalAmount:Int!
+  totalAmount:Int,
   orderDate:Date
 }
 

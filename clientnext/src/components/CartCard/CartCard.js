@@ -25,9 +25,9 @@ export default function CartCard({ props, productItems, setProductItems }) {
         context: {
             headers: {
                 authorization: token,
-            },
+            },    
         }
-      });
+      });x    
       const response=data.removeItemFromCart
       setProductItems(
         productItems.filter(product => product._id !== props._id)

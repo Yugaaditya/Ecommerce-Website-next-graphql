@@ -11,7 +11,7 @@
   display: flex;
   align-items: center;
   width: 100vh;
-  height: 45vh;
+  height: 55vh;
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -26,8 +26,8 @@
 
 .product-item-image {
   margin: 20px;
-  width: 200px;
-  height: 200px;
+  width: 225px;
+  height: 225px;
   border-radius: 8px;
 }
 

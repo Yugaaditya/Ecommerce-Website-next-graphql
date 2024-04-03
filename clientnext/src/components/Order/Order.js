@@ -28,13 +28,7 @@ export default function Order() {
                     }
                   });   
                 const response=data.Order
-                // const response = await fetch(`https://ecommerce-website-next-js-theta.vercel.app/api/orders`, {
-                //     method: 'GET',
-                //     headers: {
-                //         'Content-Type': 'application/json',
-                //         'Authorization': token
-                //     }
-                // });
+                console.log(response[0].status)
                 if (response[0].status===201) {
                     setProductItems(response);
                 } else if (localStorage.getItem('token')) {

@@ -236,6 +236,7 @@ const resolver = {
         Order: async (_, __, context) => {
             try {
                 if (context.userId==="Invalid Token"){
+                    console.log(2);
                     return [{
                         status:400
                     }]
