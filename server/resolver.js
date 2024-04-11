@@ -148,7 +148,6 @@ const resolver = {
     },
     Query: {
         Products: async (_, { sortOption, ratingOption, categoryOption, searchWord },context) => {
-            console.log(searchWord)
             try {
                 let query = {};
                 let sortQuery = {};
